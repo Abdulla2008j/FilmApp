@@ -75,6 +75,6 @@ public class FilmsFragment extends Fragment implements OnItemClick {
         Bundle bundle = new Bundle();
         bundle.putString("id", film.getId());
         NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
-        navController.navigate(R.id.filmsFragment, bundle);
+        navController.navigate(R.id.filmsDetailFragment, bundle);
     }
 }
